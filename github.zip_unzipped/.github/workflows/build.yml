@@ -29,6 +29,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: ClevertelVoIP-debug.apk
-          path: P2PSample/build/outputs/apk/debug/*.apk
+          path: github.zip_unzipped/P2PSample/build/outputs/apk/debug/*.apk
           retention-days: 30
  
